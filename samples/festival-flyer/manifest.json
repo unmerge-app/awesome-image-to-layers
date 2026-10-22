@@ -1,0 +1,81 @@
+{
+  "id": "festival-flyer",
+  "title": "Festival flyer",
+  "description": "Text printed over a photo, plus a sticker badge.",
+  "note": "The crowd under the sticker was filled in. Stage and crowd details were redrawn and differ from the original.",
+  "width": 832,
+  "height": 1248,
+  "input": {
+    "file": "original.png",
+    "width": 1024,
+    "height": 1536,
+    "source": "AI-generated test image"
+  },
+  "layerOrder": "bottom-to-top",
+  "layers": [
+    {
+      "name": "Background",
+      "filename": "layers/00.png",
+      "zIndex": 0,
+      "sourceBox": null
+    },
+    {
+      "name": "Audience crowd",
+      "filename": "layers/01.png",
+      "zIndex": 1,
+      "sourceBox": [
+        95,
+        604,
+        792,
+        1248
+      ]
+    },
+    {
+      "name": "Performance stage",
+      "filename": "layers/02.png",
+      "zIndex": 2,
+      "sourceBox": [
+        218,
+        347,
+        832,
+        679
+      ]
+    },
+    {
+      "name": "Event date and location text",
+      "filename": "layers/03.png",
+      "zIndex": 3,
+      "sourceBox": [
+        160,
+        273,
+        670,
+        310
+      ]
+    },
+    {
+      "name": "SUNDOWN FEST main title",
+      "filename": "layers/04.png",
+      "zIndex": 4,
+      "sourceBox": [
+        45,
+        121,
+        792,
+        253
+      ]
+    },
+    {
+      "name": "Red SOLD OUT sticker",
+      "filename": "layers/05.png",
+      "zIndex": 5,
+      "sourceBox": [
+        557,
+        935,
+        802,
+        1180
+      ]
+    }
+  ],
+  "psd": "layers.psd",
+  "composite": "composite.png",
+  "interactiveUrl": "https://unmerge.app/showcase/festival-flyer"
+}

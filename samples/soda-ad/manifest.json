@@ -1,0 +1,136 @@
+{
+  "id": "soda-ad",
+  "title": "Soda can ad",
+  "description": "A can with fruit, ice, and a splash around it.",
+  "note": "The lime wedge in front of the can came back behind it, and the splash was redrawn. Layer order is shown as returned.",
+  "width": 1024,
+  "height": 1024,
+  "input": {
+    "file": "original.png",
+    "width": 1024,
+    "height": 1024,
+    "source": "AI-generated test image"
+  },
+  "layerOrder": "bottom-to-top",
+  "layers": [
+    {
+      "name": "Background",
+      "filename": "layers/00.png",
+      "zIndex": 0,
+      "sourceBox": null
+    },
+    {
+      "name": "Bottom promotional text",
+      "filename": "layers/01.png",
+      "zIndex": 1,
+      "sourceBox": [
+        161,
+        908,
+        863,
+        964
+      ]
+    },
+    {
+      "name": "Top left lime slice",
+      "filename": "layers/02.png",
+      "zIndex": 2,
+      "sourceBox": [
+        95,
+        233,
+        312,
+        456
+      ]
+    },
+    {
+      "name": "Top right lime slice",
+      "filename": "layers/03.png",
+      "zIndex": 3,
+      "sourceBox": [
+        723,
+        378,
+        936,
+        607
+      ]
+    },
+    {
+      "name": "Top left floating ice cube",
+      "filename": "layers/04.png",
+      "zIndex": 4,
+      "sourceBox": [
+        82,
+        465,
+        251,
+        628
+      ]
+    },
+    {
+      "name": "Top right floating ice cube",
+      "filename": "layers/05.png",
+      "zIndex": 5,
+      "sourceBox": [
+        756,
+        204,
+        937,
+        378
+      ]
+    },
+    {
+      "name": "Bottom right floating ice cube",
+      "filename": "layers/06.png",
+      "zIndex": 6,
+      "sourceBox": [
+        699,
+        626,
+        867,
+        786
+      ]
+    },
+    {
+      "name": "Splashing water effect",
+      "filename": "layers/07.png",
+      "zIndex": 7,
+      "sourceBox": [
+        173,
+        21,
+        850,
+        685
+      ]
+    },
+    {
+      "name": "Bottom left lime slice",
+      "filename": "layers/08.png",
+      "zIndex": 8,
+      "sourceBox": [
+        225,
+        542,
+        524,
+        831
+      ]
+    },
+    {
+      "name": "FIZZO soda can",
+      "filename": "layers/09.png",
+      "zIndex": 9,
+      "sourceBox": [
+        334,
+        183,
+        688,
+        842
+      ]
+    },
+    {
+      "name": "Bottom left countertop ice cube",
+      "filename": "layers/10.png",
+      "zIndex": 10,
+      "sourceBox": [
+        146,
+        667,
+        373,
+        857
+      ]
+    }
+  ],
+  "psd": "layers.psd",
+  "composite": "composite.png",
+  "interactiveUrl": "https://unmerge.app/showcase/soda-ad"
+}

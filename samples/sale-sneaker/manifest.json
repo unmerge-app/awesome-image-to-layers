@@ -1,0 +1,70 @@
+{
+  "id": "sale-sneaker",
+  "title": "Sneaker sale poster",
+  "description": "A product lying across large type.",
+  "note": "The digits under the sneaker were filled in. The sneaker lost its drop shadow, and its toe is still cut off at the edge.",
+  "width": 832,
+  "height": 1248,
+  "input": {
+    "file": "original.png",
+    "width": 1024,
+    "height": 1536,
+    "source": "AI-generated test image"
+  },
+  "layerOrder": "bottom-to-top",
+  "layers": [
+    {
+      "name": "Background",
+      "filename": "layers/00.png",
+      "zIndex": 0,
+      "sourceBox": null
+    },
+    {
+      "name": "OFF discount text",
+      "filename": "layers/01.png",
+      "zIndex": 1,
+      "sourceBox": [
+        40,
+        658,
+        781,
+        1056
+      ]
+    },
+    {
+      "name": "50% discount text",
+      "filename": "layers/02.png",
+      "zIndex": 2,
+      "sourceBox": [
+        28,
+        99,
+        813,
+        517
+      ]
+    },
+    {
+      "name": "Event description text",
+      "filename": "layers/03.png",
+      "zIndex": 3,
+      "sourceBox": [
+        173,
+        1106,
+        662,
+        1137
+      ]
+    },
+    {
+      "name": "Red sneaker",
+      "filename": "layers/04.png",
+      "zIndex": 4,
+      "sourceBox": [
+        121,
+        269,
+        832,
+        812
+      ]
+    }
+  ],
+  "psd": "layers.psd",
+  "composite": "composite.png",
+  "interactiveUrl": "https://unmerge.app/showcase/sale-sneaker"
+}

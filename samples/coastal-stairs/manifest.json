@@ -1,0 +1,48 @@
+{
+  "id": "coastal-stairs",
+  "title": "Sunlit coastal stairs",
+  "description": "A coastal stairway split into background, cat and schoolgirl layers.",
+  "note": "The girl and cat are separate layers. Background areas behind them are generated, so fine textures and outlines can differ from the input.",
+  "width": 1248,
+  "height": 832,
+  "input": {
+    "file": "original.png",
+    "width": 1536,
+    "height": 1024,
+    "source": "Owner-authorized test image"
+  },
+  "layerOrder": "bottom-to-top",
+  "layers": [
+    {
+      "name": "Background",
+      "filename": "layers/00.png",
+      "zIndex": 0,
+      "sourceBox": null
+    },
+    {
+      "name": "Black and white cat on stairs",
+      "filename": "layers/01.png",
+      "zIndex": 1,
+      "sourceBox": [
+        695,
+        665,
+        723,
+        736
+      ]
+    },
+    {
+      "name": "School uniform girl with backpack",
+      "filename": "layers/02.png",
+      "zIndex": 2,
+      "sourceBox": [
+        179,
+        161,
+        540,
+        832
+      ]
+    }
+  ],
+  "psd": "layers.psd",
+  "composite": "composite.png",
+  "interactiveUrl": null
+}

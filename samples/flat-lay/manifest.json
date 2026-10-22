@@ -1,0 +1,70 @@
+{
+  "id": "flat-lay",
+  "title": "Four-product flat lay",
+  "description": "Four products on a plain backdrop.",
+  "note": "Each product is its own layer. Their cast shadows were not kept.",
+  "width": 1248,
+  "height": 832,
+  "input": {
+    "file": "original.png",
+    "width": 1536,
+    "height": 1024,
+    "source": "AI-generated test image"
+  },
+  "layerOrder": "bottom-to-top",
+  "layers": [
+    {
+      "name": "Background",
+      "filename": "layers/00.png",
+      "zIndex": 0,
+      "sourceBox": null
+    },
+    {
+      "name": "Black over-ear headphones",
+      "filename": "layers/01.png",
+      "zIndex": 1,
+      "sourceBox": [
+        180,
+        26,
+        533,
+        397
+      ]
+    },
+    {
+      "name": "Silver compact camera",
+      "filename": "layers/02.png",
+      "zIndex": 2,
+      "sourceBox": [
+        716,
+        172,
+        1079,
+        361
+      ]
+    },
+    {
+      "name": "Leather strap wristwatch",
+      "filename": "layers/03.png",
+      "zIndex": 3,
+      "sourceBox": [
+        275,
+        455,
+        434,
+        761
+      ]
+    },
+    {
+      "name": "Tortoiseshell frame sunglasses",
+      "filename": "layers/04.png",
+      "zIndex": 4,
+      "sourceBox": [
+        685,
+        528,
+        1114,
+        673
+      ]
+    }
+  ],
+  "psd": "layers.psd",
+  "composite": "composite.png",
+  "interactiveUrl": "https://unmerge.app/showcase/flat-lay"
+}

@@ -1,0 +1,147 @@
+{
+  "id": "missing-cat",
+  "title": "Missing cat flyer",
+  "description": "A photo, handwritten lines, and tear-off tabs.",
+  "note": "The photo, each text line, and each tab are separate layers. Tab edges were redrawn.",
+  "width": 832,
+  "height": 1248,
+  "input": {
+    "file": "original.png",
+    "width": 1024,
+    "height": 1536,
+    "source": "AI-generated test image"
+  },
+  "layerOrder": "bottom-to-top",
+  "layers": [
+    {
+      "name": "Background",
+      "filename": "layers/00.png",
+      "zIndex": 0,
+      "sourceBox": null
+    },
+    {
+      "name": "Reward instruction text",
+      "filename": "layers/01.png",
+      "zIndex": 1,
+      "sourceBox": [
+        57,
+        931,
+        781,
+        991
+      ]
+    },
+    {
+      "name": "Response instruction text",
+      "filename": "layers/02.png",
+      "zIndex": 2,
+      "sourceBox": [
+        80,
+        837,
+        762,
+        900
+      ]
+    },
+    {
+      "name": "Orange cat photo card",
+      "filename": "layers/03.png",
+      "zIndex": 3,
+      "sourceBox": [
+        142,
+        236,
+        690,
+        805
+      ]
+    },
+    {
+      "name": "MISSING heading text",
+      "filename": "layers/04.png",
+      "zIndex": 4,
+      "sourceBox": [
+        47,
+        34,
+        790,
+        223
+      ]
+    },
+    {
+      "name": "Paw print tear strip 1",
+      "filename": "layers/05.png",
+      "zIndex": 5,
+      "sourceBox": [
+        5,
+        1034,
+        111,
+        1235
+      ]
+    },
+    {
+      "name": "Paw print tear strip 2",
+      "filename": "layers/06.png",
+      "zIndex": 6,
+      "sourceBox": [
+        107,
+        1032,
+        219,
+        1235
+      ]
+    },
+    {
+      "name": "Paw print tear strip 3",
+      "filename": "layers/07.png",
+      "zIndex": 7,
+      "sourceBox": [
+        304,
+        1033,
+        410,
+        1235
+      ]
+    },
+    {
+      "name": "Paw print tear strip 4",
+      "filename": "layers/08.png",
+      "zIndex": 8,
+      "sourceBox": [
+        413,
+        1033,
+        515,
+        1234
+      ]
+    },
+    {
+      "name": "Paw print tear strip 5",
+      "filename": "layers/09.png",
+      "zIndex": 9,
+      "sourceBox": [
+        514,
+        1033,
+        617,
+        1234
+      ]
+    },
+    {
+      "name": "Paw print tear strip 6",
+      "filename": "layers/10.png",
+      "zIndex": 10,
+      "sourceBox": [
+        614,
+        1032,
+        719,
+        1234
+      ]
+    },
+    {
+      "name": "Paw print tear strip 7",
+      "filename": "layers/11.png",
+      "zIndex": 11,
+      "sourceBox": [
+        717,
+        1033,
+        822,
+        1234
+      ]
+    }
+  ],
+  "psd": "layers.psd",
+  "composite": "composite.png",
+  "interactiveUrl": "https://unmerge.app/showcase/missing-cat"
+}

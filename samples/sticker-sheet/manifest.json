@@ -1,0 +1,125 @@
+{
+  "id": "sticker-sheet",
+  "title": "Food sticker sheet",
+  "description": "Nine stickers on a white sheet.",
+  "note": "Each sticker is its own layer and keeps its white border.",
+  "width": 1024,
+  "height": 1024,
+  "input": {
+    "file": "original.png",
+    "width": 1024,
+    "height": 1024,
+    "source": "AI-generated test image"
+  },
+  "layerOrder": "bottom-to-top",
+  "layers": [
+    {
+      "name": "Background",
+      "filename": "layers/00.png",
+      "zIndex": 0,
+      "sourceBox": null
+    },
+    {
+      "name": "Anthropomorphic avocado sticker",
+      "filename": "layers/01.png",
+      "zIndex": 1,
+      "sourceBox": [
+        40,
+        23,
+        293,
+        336
+      ]
+    },
+    {
+      "name": "Anthropomorphic pizza sticker",
+      "filename": "layers/02.png",
+      "zIndex": 2,
+      "sourceBox": [
+        377,
+        22,
+        677,
+        330
+      ]
+    },
+    {
+      "name": "Anthropomorphic bubble tea sticker",
+      "filename": "layers/03.png",
+      "zIndex": 3,
+      "sourceBox": [
+        752,
+        4,
+        961,
+        334
+      ]
+    },
+    {
+      "name": "Anthropomorphic fried egg sticker",
+      "filename": "layers/04.png",
+      "zIndex": 4,
+      "sourceBox": [
+        16,
+        374,
+        321,
+        665
+      ]
+    },
+    {
+      "name": "Anthropomorphic strawberry sticker",
+      "filename": "layers/05.png",
+      "zIndex": 5,
+      "sourceBox": [
+        388,
+        352,
+        636,
+        663
+      ]
+    },
+    {
+      "name": "Anthropomorphic sushi sticker",
+      "filename": "layers/06.png",
+      "zIndex": 6,
+      "sourceBox": [
+        723,
+        377,
+        980,
+        637
+      ]
+    },
+    {
+      "name": "Anthropomorphic donut sticker",
+      "filename": "layers/07.png",
+      "zIndex": 7,
+      "sourceBox": [
+        17,
+        693,
+        312,
+        968
+      ]
+    },
+    {
+      "name": "Anthropomorphic taco sticker",
+      "filename": "layers/08.png",
+      "zIndex": 8,
+      "sourceBox": [
+        336,
+        711,
+        680,
+        971
+      ]
+    },
+    {
+      "name": "Anthropomorphic ramen bowl sticker",
+      "filename": "layers/09.png",
+      "zIndex": 9,
+      "sourceBox": [
+        698,
+        679,
+        1014,
+        980
+      ]
+    }
+  ],
+  "psd": "layers.psd",
+  "composite": "composite.png",
+  "interactiveUrl": "https://unmerge.app/showcase/sticker-sheet"
+}
