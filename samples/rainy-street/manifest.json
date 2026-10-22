@@ -1,0 +1,158 @@
+{
+  "id": "rainy-street",
+  "title": "Rainy street illustration",
+  "description": "A character between a foreground prop and a busy street.",
+  "note": "The girl and her umbrella are one layer. Her face and clothing were redrawn, and her reflection stays on the ground when she moves.",
+  "width": 832,
+  "height": 1248,
+  "input": {
+    "file": "original.png",
+    "width": 1024,
+    "height": 1536,
+    "source": "AI-generated test image"
+  },
+  "layerOrder": "bottom-to-top",
+  "layers": [
+    {
+      "name": "Background",
+      "filename": "layers/00.png",
+      "zIndex": 0,
+      "sourceBox": null
+    },
+    {
+      "name": "Top-right pink square neon sign",
+      "filename": "layers/01.png",
+      "zIndex": 1,
+      "sourceBox": [
+        616,
+        0,
+        660,
+        170
+      ]
+    },
+    {
+      "name": "Blue diamond neon sign",
+      "filename": "layers/02.png",
+      "zIndex": 2,
+      "sourceBox": [
+        610,
+        289,
+        668,
+        453
+      ]
+    },
+    {
+      "name": "Blue ring neon light",
+      "filename": "layers/03.png",
+      "zIndex": 3,
+      "sourceBox": [
+        747,
+        149,
+        832,
+        346
+      ]
+    },
+    {
+      "name": "Double pink vertical neon sign",
+      "filename": "layers/04.png",
+      "zIndex": 4,
+      "sourceBox": [
+        631,
+        531,
+        680,
+        663
+      ]
+    },
+    {
+      "name": "Right wall potted green plant",
+      "filename": "layers/05.png",
+      "zIndex": 5,
+      "sourceBox": [
+        634,
+        374,
+        832,
+        535
+      ]
+    },
+    {
+      "name": "Background vintage street lamp",
+      "filename": "layers/06.png",
+      "zIndex": 6,
+      "sourceBox": [
+        518,
+        145,
+        574,
+        299
+      ]
+    },
+    {
+      "name": "Deep alley pink square neon sign",
+      "filename": "layers/07.png",
+      "zIndex": 7,
+      "sourceBox": [
+        530,
+        459,
+        552,
+        550
+      ]
+    },
+    {
+      "name": "Left potted green plant",
+      "filename": "layers/08.png",
+      "zIndex": 8,
+      "sourceBox": [
+        73,
+        540,
+        272,
+        891
+      ]
+    },
+    {
+      "name": "Umbrella-holding girl main figure",
+      "filename": "layers/09.png",
+      "zIndex": 9,
+      "sourceBox": [
+        182,
+        167,
+        596,
+        1077
+      ]
+    },
+    {
+      "name": "Right metal handrail",
+      "filename": "layers/10.png",
+      "zIndex": 10,
+      "sourceBox": [
+        724,
+        559,
+        832,
+        869
+      ]
+    },
+    {
+      "name": "Red Japanese paper lantern",
+      "filename": "layers/11.png",
+      "zIndex": 11,
+      "sourceBox": [
+        31,
+        25,
+        300,
+        515
+      ]
+    },
+    {
+      "name": "Foreground dark barrel decor",
+      "filename": "layers/12.png",
+      "zIndex": 12,
+      "sourceBox": [
+        74,
+        908,
+        205,
+        1248
+      ]
+    }
+  ],
+  "psd": "layers.psd",
+  "composite": "composite.png",
+  "interactiveUrl": "https://unmerge.app/showcase/rainy-street"
+}

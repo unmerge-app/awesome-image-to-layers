@@ -1,0 +1,275 @@
+[
+  {
+    "id": "mars-cover",
+    "title": "Mars magazine cover",
+    "description": "A headline that sits behind the subject.",
+    "note": "The parts of the headline hidden behind the helmet were filled in. The ground behind the astronaut is generated.",
+    "width": 832,
+    "height": 1248,
+    "input": {
+      "file": "original.png",
+      "width": 1024,
+      "height": 1536,
+      "source": "AI-generated test image"
+    },
+    "layerOrder": "bottom-to-top",
+    "psd": "layers.psd",
+    "composite": "composite.png",
+    "interactiveUrl": "https://unmerge.app/showcase/mars-cover",
+    "bytes": 8474402,
+    "psdPixelRoundTrip": true,
+    "layers": 4
+  },
+  {
+    "id": "festival-flyer",
+    "title": "Festival flyer",
+    "description": "Text printed over a photo, plus a sticker badge.",
+    "note": "The crowd under the sticker was filled in. Stage and crowd details were redrawn and differ from the original.",
+    "width": 832,
+    "height": 1248,
+    "input": {
+      "file": "original.png",
+      "width": 1024,
+      "height": 1536,
+      "source": "AI-generated test image"
+    },
+    "layerOrder": "bottom-to-top",
+    "psd": "layers.psd",
+    "composite": "composite.png",
+    "interactiveUrl": "https://unmerge.app/showcase/festival-flyer",
+    "bytes": 8481913,
+    "psdPixelRoundTrip": true,
+    "layers": 6
+  },
+  {
+    "id": "coffee-ad",
+    "title": "Coffee bag ad",
+    "description": "A product, props, and a headline on one surface.",
+    "note": "The beans came back as one group layer. The cup lost most of its cast shadow.",
+    "width": 1248,
+    "height": 832,
+    "input": {
+      "file": "original.png",
+      "width": 1536,
+      "height": 1024,
+      "source": "AI-generated test image"
+    },
+    "layerOrder": "bottom-to-top",
+    "psd": "layers.psd",
+    "composite": "composite.png",
+    "interactiveUrl": "https://unmerge.app/showcase/coffee-ad",
+    "bytes": 8162531,
+    "psdPixelRoundTrip": true,
+    "layers": 8
+  },
+  {
+    "id": "sticker-sheet",
+    "title": "Food sticker sheet",
+    "description": "Nine stickers on a white sheet.",
+    "note": "Each sticker is its own layer and keeps its white border.",
+    "width": 1024,
+    "height": 1024,
+    "input": {
+      "file": "original.png",
+      "width": 1024,
+      "height": 1024,
+      "source": "AI-generated test image"
+    },
+    "layerOrder": "bottom-to-top",
+    "psd": "layers.psd",
+    "composite": "composite.png",
+    "interactiveUrl": "https://unmerge.app/showcase/sticker-sheet",
+    "bytes": 6213999,
+    "psdPixelRoundTrip": true,
+    "layers": 10
+  },
+  {
+    "id": "sale-sneaker",
+    "title": "Sneaker sale poster",
+    "description": "A product lying across large type.",
+    "note": "The digits under the sneaker were filled in. The sneaker lost its drop shadow, and its toe is still cut off at the edge.",
+    "width": 832,
+    "height": 1248,
+    "input": {
+      "file": "original.png",
+      "width": 1024,
+      "height": 1536,
+      "source": "AI-generated test image"
+    },
+    "layerOrder": "bottom-to-top",
+    "psd": "layers.psd",
+    "composite": "composite.png",
+    "interactiveUrl": "https://unmerge.app/showcase/sale-sneaker",
+    "bytes": 7864471,
+    "psdPixelRoundTrip": true,
+    "layers": 5
+  },
+  {
+    "id": "missing-cat",
+    "title": "Missing cat flyer",
+    "description": "A photo, handwritten lines, and tear-off tabs.",
+    "note": "The photo, each text line, and each tab are separate layers. Tab edges were redrawn.",
+    "width": 832,
+    "height": 1248,
+    "input": {
+      "file": "original.png",
+      "width": 1024,
+      "height": 1536,
+      "source": "AI-generated test image"
+    },
+    "layerOrder": "bottom-to-top",
+    "psd": "layers.psd",
+    "composite": "composite.png",
+    "interactiveUrl": "https://unmerge.app/showcase/missing-cat",
+    "bytes": 8833696,
+    "psdPixelRoundTrip": true,
+    "layers": 12
+  },
+  {
+    "id": "flat-lay",
+    "title": "Four-product flat lay",
+    "description": "Four products on a plain backdrop.",
+    "note": "Each product is its own layer. Their cast shadows were not kept.",
+    "width": 1248,
+    "height": 832,
+    "input": {
+      "file": "original.png",
+      "width": 1536,
+      "height": 1024,
+      "source": "AI-generated test image"
+    },
+    "layerOrder": "bottom-to-top",
+    "psd": "layers.psd",
+    "composite": "composite.png",
+    "interactiveUrl": "https://unmerge.app/showcase/flat-lay",
+    "bytes": 6395053,
+    "psdPixelRoundTrip": true,
+    "layers": 5
+  },
+  {
+    "id": "soda-ad",
+    "title": "Soda can ad",
+    "description": "A can with fruit, ice, and a splash around it.",
+    "note": "The lime wedge in front of the can came back behind it, and the splash was redrawn. Layer order is shown as returned.",
+    "width": 1024,
+    "height": 1024,
+    "input": {
+      "file": "original.png",
+      "width": 1024,
+      "height": 1024,
+      "source": "AI-generated test image"
+    },
+    "layerOrder": "bottom-to-top",
+    "psd": "layers.psd",
+    "composite": "composite.png",
+    "interactiveUrl": "https://unmerge.app/showcase/soda-ad",
+    "bytes": 8012893,
+    "psdPixelRoundTrip": true,
+    "layers": 11
+  },
+  {
+    "id": "game-items",
+    "title": "Game item sheet",
+    "description": "Four hand-painted items in a row.",
+    "note": "Four items, four layers. The white background kept faint grey marks.",
+    "width": 1024,
+    "height": 1024,
+    "input": {
+      "file": "original.png",
+      "width": 1024,
+      "height": 1024,
+      "source": "AI-generated test image"
+    },
+    "layerOrder": "bottom-to-top",
+    "psd": "layers.psd",
+    "composite": "composite.png",
+    "interactiveUrl": "https://unmerge.app/showcase/game-items",
+    "bytes": 3990940,
+    "psdPixelRoundTrip": true,
+    "layers": 5
+  },
+  {
+    "id": "rainy-street",
+    "title": "Rainy street illustration",
+    "description": "A character between a foreground prop and a busy street.",
+    "note": "The girl and her umbrella are one layer. Her face and clothing were redrawn, and her reflection stays on the ground when she moves.",
+    "width": 832,
+    "height": 1248,
+    "input": {
+      "file": "original.png",
+      "width": 1024,
+      "height": 1536,
+      "source": "AI-generated test image"
+    },
+    "layerOrder": "bottom-to-top",
+    "psd": "layers.psd",
+    "composite": "composite.png",
+    "interactiveUrl": "https://unmerge.app/showcase/rainy-street",
+    "bytes": 8623185,
+    "psdPixelRoundTrip": true,
+    "layers": 13
+  },
+  {
+    "id": "coastal-stairs",
+    "title": "Sunlit coastal stairs",
+    "description": "A coastal stairway split into background, cat and schoolgirl layers.",
+    "note": "The girl and cat are separate layers. Background areas behind them are generated, so fine textures and outlines can differ from the input.",
+    "width": 1248,
+    "height": 832,
+    "input": {
+      "file": "original.png",
+      "width": 1536,
+      "height": 1024,
+      "source": "Owner-authorized test image"
+    },
+    "layerOrder": "bottom-to-top",
+    "layers": 3,
+    "psd": "layers.psd",
+    "composite": "composite.png",
+    "interactiveUrl": null,
+    "bytes": 6855302,
+    "psdPixelRoundTrip": true
+  },
+  {
+    "id": "seaside-window",
+    "title": "Golden hour seaside window",
+    "description": "A seaside interior separated into background and individual scene elements.",
+    "note": "The scene is split into 15 layers. Tabletop lighting, shadows and small details were redrawn; the composite is not pixel-identical to the input.",
+    "width": 1392,
+    "height": 784,
+    "input": {
+      "file": "original.png",
+      "width": 1672,
+      "height": 941,
+      "source": "Owner-authorized test image"
+    },
+    "layerOrder": "bottom-to-top",
+    "layers": 15,
+    "psd": "layers.psd",
+    "composite": "composite.png",
+    "interactiveUrl": null,
+    "bytes": 9226959,
+    "psdPixelRoundTrip": true
+  },
+  {
+    "id": "viking-kitten",
+    "title": "Viking kitten parts",
+    "description": "A helmeted kitten separated into face, eyes, horns, fur trim and cloak parts.",
+    "note": "Eyes, muzzle, helmet, horns and cloak are separate raster pieces. The face, neck and cloak were redrawn; the output is not a rigged character.",
+    "width": 1152,
+    "height": 960,
+    "input": {
+      "file": "original.png",
+      "width": 1374,
+      "height": 1145,
+      "source": "Owner-authorized test image"
+    },
+    "layerOrder": "bottom-to-top",
+    "layers": 14,
+    "psd": "layers.psd",
+    "composite": "composite.png",
+    "interactiveUrl": null,
+    "bytes": 10018282,
+    "psdPixelRoundTrip": true
+  }
+]

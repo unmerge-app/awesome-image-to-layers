@@ -1,0 +1,103 @@
+{
+  "id": "coffee-ad",
+  "title": "Coffee bag ad",
+  "description": "A product, props, and a headline on one surface.",
+  "note": "The beans came back as one group layer. The cup lost most of its cast shadow.",
+  "width": 1248,
+  "height": 832,
+  "input": {
+    "file": "original.png",
+    "width": 1536,
+    "height": 1024,
+    "source": "AI-generated test image"
+  },
+  "layerOrder": "bottom-to-top",
+  "layers": [
+    {
+      "name": "Background",
+      "filename": "layers/00.png",
+      "zIndex": 0,
+      "sourceBox": null
+    },
+    {
+      "name": "Top right heading text",
+      "filename": "layers/01.png",
+      "zIndex": 1,
+      "sourceBox": [
+        739,
+        106,
+        1191,
+        257
+      ]
+    },
+    {
+      "name": "Black coffee packaging bag",
+      "filename": "layers/02.png",
+      "zIndex": 2,
+      "sourceBox": [
+        155,
+        43,
+        577,
+        664
+      ]
+    },
+    {
+      "name": "Bag beige label base",
+      "filename": "layers/03.png",
+      "zIndex": 3,
+      "sourceBox": [
+        258,
+        249,
+        503,
+        563
+      ]
+    },
+    {
+      "name": "White ceramic saucer",
+      "filename": "layers/04.png",
+      "zIndex": 4,
+      "sourceBox": [
+        705,
+        529,
+        1129,
+        679
+      ]
+    },
+    {
+      "name": "Label printed text block",
+      "filename": "layers/05.png",
+      "zIndex": 5,
+      "sourceBox": [
+        305,
+        324,
+        458,
+        525
+      ]
+    },
+    {
+      "name": "Scattered coffee beans group",
+      "filename": "layers/06.png",
+      "zIndex": 6,
+      "sourceBox": [
+        207,
+        639,
+        890,
+        773
+      ]
+    },
+    {
+      "name": "White ceramic cup with coffee",
+      "filename": "layers/07.png",
+      "zIndex": 7,
+      "sourceBox": [
+        769,
+        400,
+        1148,
+        644
+      ]
+    }
+  ],
+  "psd": "layers.psd",
+  "composite": "composite.png",
+  "interactiveUrl": "https://unmerge.app/showcase/coffee-ad"
+}

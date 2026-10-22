@@ -1,0 +1,169 @@
+{
+  "id": "viking-kitten",
+  "title": "Viking kitten parts",
+  "description": "A helmeted kitten separated into face, eyes, horns, fur trim and cloak parts.",
+  "note": "Eyes, muzzle, helmet, horns and cloak are separate raster pieces. The face, neck and cloak were redrawn; the output is not a rigged character.",
+  "width": 1152,
+  "height": 960,
+  "input": {
+    "file": "original.png",
+    "width": 1374,
+    "height": 1145,
+    "source": "Owner-authorized test image"
+  },
+  "layerOrder": "bottom-to-top",
+  "layers": [
+    {
+      "name": "Background",
+      "filename": "layers/00.png",
+      "zIndex": 0,
+      "sourceBox": null
+    },
+    {
+      "name": "Cat torso",
+      "filename": "layers/01.png",
+      "zIndex": 1,
+      "sourceBox": [
+        318,
+        748,
+        829,
+        960
+      ]
+    },
+    {
+      "name": "Cat neck",
+      "filename": "layers/02.png",
+      "zIndex": 2,
+      "sourceBox": [
+        382,
+        631,
+        729,
+        790
+      ]
+    },
+    {
+      "name": "Cat face base fur",
+      "filename": "layers/03.png",
+      "zIndex": 3,
+      "sourceBox": [
+        270,
+        387,
+        789,
+        674
+      ]
+    },
+    {
+      "name": "Left eye",
+      "filename": "layers/04.png",
+      "zIndex": 4,
+      "sourceBox": [
+        427,
+        443,
+        500,
+        485
+      ]
+    },
+    {
+      "name": "Right eye",
+      "filename": "layers/05.png",
+      "zIndex": 5,
+      "sourceBox": [
+        601,
+        456,
+        683,
+        509
+      ]
+    },
+    {
+      "name": "Muzzle and mouth",
+      "filename": "layers/06.png",
+      "zIndex": 6,
+      "sourceBox": [
+        501,
+        510,
+        600,
+        597
+      ]
+    },
+    {
+      "name": "Fur cloak",
+      "filename": "layers/07.png",
+      "zIndex": 7,
+      "sourceBox": [
+        71,
+        620,
+        1009,
+        960
+      ]
+    },
+    {
+      "name": "Cloak chain clasp",
+      "filename": "layers/08.png",
+      "zIndex": 8,
+      "sourceBox": [
+        413,
+        723,
+        750,
+        815
+      ]
+    },
+    {
+      "name": "Helmet main body",
+      "filename": "layers/09.png",
+      "zIndex": 9,
+      "sourceBox": [
+        212,
+        160,
+        861,
+        661
+      ]
+    },
+    {
+      "name": "Left horn",
+      "filename": "layers/10.png",
+      "zIndex": 10,
+      "sourceBox": [
+        118,
+        6,
+        345,
+        371
+      ]
+    },
+    {
+      "name": "Right horn",
+      "filename": "layers/11.png",
+      "zIndex": 11,
+      "sourceBox": [
+        878,
+        273,
+        1093,
+        578
+      ]
+    },
+    {
+      "name": "Left helmet fur trim",
+      "filename": "layers/12.png",
+      "zIndex": 12,
+      "sourceBox": [
+        211,
+        154,
+        429,
+        410
+      ]
+    },
+    {
+      "name": "Right helmet fur trim",
+      "filename": "layers/13.png",
+      "zIndex": 13,
+      "sourceBox": [
+        834,
+        351,
+        916,
+        618
+      ]
+    }
+  ],
+  "psd": "layers.psd",
+  "composite": "composite.png",
+  "interactiveUrl": null
+}

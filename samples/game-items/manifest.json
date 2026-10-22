@@ -1,0 +1,70 @@
+{
+  "id": "game-items",
+  "title": "Game item sheet",
+  "description": "Four hand-painted items in a row.",
+  "note": "Four items, four layers. The white background kept faint grey marks.",
+  "width": 1024,
+  "height": 1024,
+  "input": {
+    "file": "original.png",
+    "width": 1024,
+    "height": 1024,
+    "source": "AI-generated test image"
+  },
+  "layerOrder": "bottom-to-top",
+  "layers": [
+    {
+      "name": "Background",
+      "filename": "layers/00.png",
+      "zIndex": 0,
+      "sourceBox": null
+    },
+    {
+      "name": "Gem-inlaid longsword",
+      "filename": "layers/01.png",
+      "zIndex": 1,
+      "sourceBox": [
+        19,
+        203,
+        184,
+        706
+      ]
+    },
+    {
+      "name": "Wooden-iron round shield",
+      "filename": "layers/02.png",
+      "zIndex": 2,
+      "sourceBox": [
+        184,
+        345,
+        489,
+        670
+      ]
+    },
+    {
+      "name": "Red potion vial",
+      "filename": "layers/03.png",
+      "zIndex": 3,
+      "sourceBox": [
+        498,
+        372,
+        689,
+        672
+      ]
+    },
+    {
+      "name": "Gold-trimmed wooden treasure chest",
+      "filename": "layers/04.png",
+      "zIndex": 4,
+      "sourceBox": [
+        700,
+        409,
+        1007,
+        690
+      ]
+    }
+  ],
+  "psd": "layers.psd",
+  "composite": "composite.png",
+  "interactiveUrl": "https://unmerge.app/showcase/game-items"
+}

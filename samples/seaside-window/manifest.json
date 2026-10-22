@@ -1,0 +1,180 @@
+{
+  "id": "seaside-window",
+  "title": "Golden hour seaside window",
+  "description": "A seaside interior separated into background and individual scene elements.",
+  "note": "The scene is split into 15 layers. Tabletop lighting, shadows and small details were redrawn; the composite is not pixel-identical to the input.",
+  "width": 1392,
+  "height": 784,
+  "input": {
+    "file": "original.png",
+    "width": 1672,
+    "height": 941,
+    "source": "Owner-authorized test image"
+  },
+  "layerOrder": "bottom-to-top",
+  "layers": [
+    {
+      "name": "Background",
+      "filename": "layers/00.png",
+      "zIndex": 0,
+      "sourceBox": null
+    },
+    {
+      "name": "Wall notes and photos",
+      "filename": "layers/01.png",
+      "zIndex": 1,
+      "sourceBox": [
+        0,
+        0,
+        228,
+        371
+      ]
+    },
+    {
+      "name": "Hanging wind chime tag",
+      "filename": "layers/02.png",
+      "zIndex": 2,
+      "sourceBox": [
+        1243,
+        0,
+        1306,
+        198
+      ]
+    },
+    {
+      "name": "Plaid blanket on chair",
+      "filename": "layers/03.png",
+      "zIndex": 3,
+      "sourceBox": [
+        5,
+        349,
+        163,
+        537
+      ]
+    },
+    {
+      "name": "Stacked books on left",
+      "filename": "layers/04.png",
+      "zIndex": 4,
+      "sourceBox": [
+        0,
+        534,
+        325,
+        736
+      ]
+    },
+    {
+      "name": "Stacked books on right",
+      "filename": "layers/05.png",
+      "zIndex": 5,
+      "sourceBox": [
+        1124,
+        564,
+        1392,
+        732
+      ]
+    },
+    {
+      "name": "Patterned pen holder",
+      "filename": "layers/06.png",
+      "zIndex": 6,
+      "sourceBox": [
+        1080,
+        439,
+        1164,
+        607
+      ]
+    },
+    {
+      "name": "Tabletop potted plants",
+      "filename": "layers/07.png",
+      "zIndex": 7,
+      "sourceBox": [
+        1229,
+        384,
+        1392,
+        579
+      ]
+    },
+    {
+      "name": "Open book in hand",
+      "filename": "layers/08.png",
+      "zIndex": 8,
+      "sourceBox": [
+        497,
+        467,
+        771,
+        625
+      ]
+    },
+    {
+      "name": "Black cat mug",
+      "filename": "layers/09.png",
+      "zIndex": 9,
+      "sourceBox": [
+        320,
+        554,
+        479,
+        685
+      ]
+    },
+    {
+      "name": "Open notebook and pen",
+      "filename": "layers/10.png",
+      "zIndex": 10,
+      "sourceBox": [
+        399,
+        650,
+        1110,
+        745
+      ]
+    },
+    {
+      "name": "Small scattered stationery",
+      "filename": "layers/11.png",
+      "zIndex": 11,
+      "sourceBox": [
+        499,
+        644,
+        697,
+        671
+      ]
+    },
+    {
+      "name": "Sleeping cat",
+      "filename": "layers/12.png",
+      "zIndex": 12,
+      "sourceBox": [
+        639,
+        509,
+        1043,
+        646
+      ]
+    },
+    {
+      "name": "Table desk lamp",
+      "filename": "layers/13.png",
+      "zIndex": 13,
+      "sourceBox": [
+        1244,
+        259,
+        1392,
+        395
+      ]
+    },
+    {
+      "name": "Girl reading a book",
+      "filename": "layers/14.png",
+      "zIndex": 14,
+      "sourceBox": [
+        89,
+        68,
+        601,
+        649
+      ]
+    }
+  ],
+  "psd": "layers.psd",
+  "composite": "composite.png",
+  "interactiveUrl": null
+}

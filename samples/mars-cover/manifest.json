@@ -1,0 +1,59 @@
+{
+  "id": "mars-cover",
+  "title": "Mars magazine cover",
+  "description": "A headline that sits behind the subject.",
+  "note": "The parts of the headline hidden behind the helmet were filled in. The ground behind the astronaut is generated.",
+  "width": 832,
+  "height": 1248,
+  "input": {
+    "file": "original.png",
+    "width": 1024,
+    "height": 1536,
+    "source": "AI-generated test image"
+  },
+  "layerOrder": "bottom-to-top",
+  "layers": [
+    {
+      "name": "Background",
+      "filename": "layers/00.png",
+      "zIndex": 0,
+      "sourceBox": null
+    },
+    {
+      "name": "ISSUE 07 text",
+      "filename": "layers/01.png",
+      "zIndex": 1,
+      "sourceBox": [
+        34,
+        1181,
+        134,
+        1198
+      ]
+    },
+    {
+      "name": "MARS headline text",
+      "filename": "layers/02.png",
+      "zIndex": 2,
+      "sourceBox": [
+        33,
+        24,
+        801,
+        272
+      ]
+    },
+    {
+      "name": "Astronaut main subject",
+      "filename": "layers/03.png",
+      "zIndex": 3,
+      "sourceBox": [
+        42,
+        146,
+        785,
+        1248
+      ]
+    }
+  ],
+  "psd": "layers.psd",
+  "composite": "composite.png",
+  "interactiveUrl": "https://unmerge.app/showcase/mars-cover"
+}
