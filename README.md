@@ -63,6 +63,26 @@ The root `catalog.json` lists all samples; `SHA256SUMS` contains file checksums.
 - **Golden hour seaside window:** The scene is split into 15 layers. Tabletop lighting, shadows and small details were redrawn; the composite is not pixel-identical to the input.
 - **Viking kitten parts:** Eyes, muzzle, helmet, horns and cloak are separate raster pieces. The face, neck and cloak were redrawn; the output is not a rigged character.
 
+## Other tools and models
+
+Unmerge is one way to do this. Other models and tools that turn one flat image into layers, as their own pages describe them (checked October 26, 2026):
+
+**Models**
+
+- [Seedream 5.0 Pro layerize](https://fal.ai/models/bytedance/seedream/v5/pro/layerize) (ByteDance, hosted on fal): the model behind every sample in this repository.
+- [Qwen-Image-Layered](https://huggingface.co/Qwen/Qwen-Image-Layered) (Qwen team, Alibaba): open weights under Apache 2.0; decomposes an image into several RGBA layers.
+- [LayerD](https://github.com/CyberAgentAILab/LayerD) (CyberAgent AI Lab, ICCV 2025): open code for decomposing raster graphic designs into layers.
+- [OmniPSD](https://github.com/showlab/OmniPSD) (Show Lab): open code for layered PSD decomposition and generation.
+
+**Web tools**
+
+- [Canva Magic Layers](https://www.canva.com/help/editable-magic-layers/): splits an image into movable elements inside the Canva editor.
+- [Codia Magic Layers](https://codia.ai/magic-layers): separates an image into editable layers in Codia Studio.
+- [Image to Layers](https://www.imagetolayers.com/): converts one image into layers and exports ZIP or PSD.
+- [LayerGrab](https://layergrab.com/): up to 16 named transparent layers, with plugins for design apps.
+
+Whichever tool you use, hide each layer to check what was filled in behind it, and compare the composite with the original.
+
 ## Limits
 
 A flat image does not contain its original design layers. These are new AI-generated raster layers, not recovered source files. Text is made of pixels, not editable type. Occluded regions are inferred; details, edges, shadows and backgrounds may be redrawn. Results are examples, not a guarantee for another image. The individual manifests preserve known flaws rather than hiding them.
